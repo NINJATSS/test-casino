@@ -5,7 +5,7 @@ export default {
   name: 'Roulette',
   short_name: 'roulette',
   description: '',
-  creator: 'DwRFGbjKbsEhUMe5at3qWvH7i8dAJyhhwdnFoZMnLVRV',
+  creator: '399KgE5gpzFvBB8arZLxA2bes3n4FY7rTMmzifHohPzx',
   image,
   theme_color: '#59ff5f',
   app: React.lazy(() => import('./App')),

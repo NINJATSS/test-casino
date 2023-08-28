@@ -5,7 +5,7 @@ export default {
   name: 'Dice',
   short_name: 'dice',
   description: '',
-  creator: 'DwRFGbjKbsEhUMe5at3qWvH7i8dAJyhhwdnFoZMnLVRV',
+  creator: '399KgE5gpzFvBB8arZLxA2bes3n4FY7rTMmzifHohPzx',
   image,
   theme_color: '#ad6bff',
   app: React.lazy(() => import('./App')),
