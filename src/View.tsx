@@ -46,14 +46,12 @@ function Details({ game }: {game?: GameBundle}) {
           </Section>
         ) : (
           <Section>
-            <h1>NATE test platform</h1>
+            <h1>NINJA TURLTE</h1>
             <div>
               A decentralized, provably-fair casino built on <a target="_blank" href="https://github.com/gamba-labs/gamba" rel="noreferrer">gamba</a>.
             </div>
             <div style={{ display: 'flex', gap: '20px' }}>
-              <Button onClick={() => window.open('https://gamba.so', '_blank')}>
-                Read More
-              </Button>
+              
             </div>
           </Section>
         )}

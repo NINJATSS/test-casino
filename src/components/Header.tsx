@@ -1,12 +1,12 @@
-import { GambaModalButton } from 'gamba/react-ui'
+import { GambaConnectButton } from 'gamba/react-ui'
 import React from 'react'
 import { FaDiscord, FaGithub, FaTwitter } from 'react-icons/fa'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
 
 const Logo = styled.img`
-  width: 2em;
-  height: 2em;
+  width: 4em;
+  height: 4em;
 `
 
 const Wrapper = styled.div`
@@ -63,20 +63,17 @@ export function Header() {
     <Wrapper>
       <NavigationLink to="/">
         <Logo src="/logo.png" />
-        <div className="label">Gamba Demo</div>
+        <div className="label">NINJA TURTLE CASINO</div>
       </NavigationLink>
       <Links>
-        <a target="_blank" href="https://github.com/gamba-labs/gamba" rel="noreferrer">
-          <FaGithub />
-        </a>
-        <a target="_blank" href="http://discord.gg/xjBsW3e8fK" rel="noreferrer">
+        <a target="_blank" href="https://t.co/ELETrTpKee" rel="noreferrer">
           <FaDiscord />
         </a>
-        <a target="_blank" href="https://twitter.com/GambaLabs" rel="noreferrer">
+        <a target="_blank" href="https://twitter.com/NINJA_TSS" rel="noreferrer">
           <FaTwitter />
         </a>
       </Links>
-      <GambaModalButton />
+      <GambaConnectButton />
     </Wrapper>
   )
 }
